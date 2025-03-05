@@ -7,6 +7,8 @@ STEP 2 : Clear the Table each time before loading to silver.
 STEP 3 : INSERT THE DATA
 STEP 4 : USE error handing(TRY AND CATCH)
 STEP 5 : Find total time required to Full load
+
+EXEC silver.load_silver;
 */
 
 Create or alter PROCEDURE silver.load_silver as
